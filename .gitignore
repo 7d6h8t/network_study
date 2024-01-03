@@ -1,0 +1,11 @@
+
+*.exe
+*.user
+*.aps
+
+.vs/
+bin/
+temp/
+
+RCa21212
+*.rej

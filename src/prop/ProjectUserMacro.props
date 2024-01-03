@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <PROJECTPATH_ROOT>$(SolutionDir)..\</PROJECTPATH_ROOT>
+    <PROJECTPATH_SRC>$(PROJECTPATH_ROOT)src\</PROJECTPATH_SRC>
+    <PROJECTPATH_BIN>$(PROJECTPATH_ROOT)bin\</PROJECTPATH_BIN>
+    <PROJECTPATH_TEMP>$(PROJECTPATH_ROOT)temp\</PROJECTPATH_TEMP>
+    <PROJECTPATH_EXTERNAL>$(PROJECTPATH_ROOT)external\</PROJECTPATH_EXTERNAL>
+    <PROJECTPATH_TOOL>$(PROJECTPATH_ROOT)tool\</PROJECTPATH_TOOL>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="PROJECTPATH_ROOT">
+      <Value>$(PROJECTPATH_ROOT)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROJECTPATH_SRC">
+      <Value>$(PROJECTPATH_SRC)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROJECTPATH_BIN">
+      <Value>$(PROJECTPATH_BIN)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROJECTPATH_TEMP">
+      <Value>$(PROJECTPATH_TEMP)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROJECTPATH_EXTERNAL">
+      <Value>$(PROJECTPATH_EXTERNAL)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="PROJECTPATH_TOOL">
+      <Value>$(PROJECTPATH_TOOL)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
